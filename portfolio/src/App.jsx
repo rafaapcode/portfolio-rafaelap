@@ -1,11 +1,13 @@
 import Header from './components/Header';
+import Home from './components/Home';
 
 function App() {
   return (
-    <div className='snap-y snap-mandatory overflow-auto'>
+    <div className='flex flex-col snap-y snap-mandatory overflow-auto'>
 
-      <section className='h-screen'>
+      <section id='home' className='h-screen'>
         <Header />
+        <Home />
       </section>
 
     </div>
