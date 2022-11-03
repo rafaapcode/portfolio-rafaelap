@@ -5,9 +5,9 @@ import { TiSocialLinkedin } from 'react-icons/ti';
 import { TbMessageCircle2 } from 'react-icons/tb';
 import { BiGridAlt } from 'react-icons/bi';
 import { AiOutlineHome } from 'react-icons/ai';
-import { BsPerson } from 'react-icons/bs';
+import { BsPerson, BsImage } from 'react-icons/bs';
 import { DiCodeBadge } from 'react-icons/di'
-
+import { MdOutlineMailOutline } from 'react-icons/md';
 
 
 function Home() {
@@ -111,12 +111,12 @@ function Home() {
                             <a href="#home" className='text-xl p-1'>Skills</a>
                         </button>
                         <button className='w-[25%] flex flex-col justify-center items-center p-2 shadow rounded-xl'>
-                            <DiCodeBadge size={'30px'} />
-                            <a href="#home" className='text-xl p-1'>Sobre</a>
+                            <BsImage size={'30px'} />
+                            <a href="#home" className='text-xl p-1'>Portfolio</a>
                         </button>
                         <button className='w-[25%] flex flex-col justify-center items-center p-2 shadow rounded-xl'>
-                            <DiCodeBadge size={'30px'} />
-                            <a href="#home" className='text-xl p-1'>Sobre</a>
+                            <MdOutlineMailOutline size={'30px'} />
+                            <a href="#home" className='text-xl p-1'>Contato</a>
                         </button>
 
                         <button onClick={() => setIsOpen(false)} className='absolute bottom-3 right-5 text-3xl'>X</button>
