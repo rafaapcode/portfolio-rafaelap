@@ -83,7 +83,7 @@ function Home() {
 
                 </div>
 
-                <motion.div {...headerCel} className='fixed bottom-0 flex justify-around w-full items-center h-[50px] border-t-2 md:hidden'>
+                <motion.div {...headerCel} className='fixed bottom-0 flex justify-around w-full items-center h-[50px] border-t-2 md:hidden bg-white'>
                     <p className='text-xl'>Rafael</p>
                     <div></div>
                     <div></div>
@@ -97,7 +97,7 @@ function Home() {
                 {isOpen && (
                     <motion.div
                         {...menuCelAnimation}
-                        className='fixed bottom-0 flex justify-around w-full items-center h-[40%] gap-x-2 bg-white flex-wrap rounded-xl md:hidden shadow-xl border-t-2'>
+                        className='fixed bottom-0 flex justify-around w-full items-center h-[40%] gap-x-2 bg-white flex-wrap rounded-xl md:hidden shadow-xl border-t-2 z-20'>
                         <button className='w-[25%] flex flex-col justify-center items-center p-2 shadow rounded-xl'>
                             <AiOutlineHome size={'30px'} />
                             <a href="#home" className='text-xl p-1'>Home</a>

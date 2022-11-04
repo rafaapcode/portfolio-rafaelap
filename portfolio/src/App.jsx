@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -13,6 +14,10 @@ function App() {
 
       <section id='sobre' className='h-screen snap-center'>
         <About />
+      </section>
+
+      <section id='skills' className='h-screen snap-center'>
+        <Skills />
       </section>
 
     </div>
