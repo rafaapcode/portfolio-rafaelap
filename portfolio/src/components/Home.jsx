@@ -104,11 +104,11 @@ function Home() {
                         </button>
                         <button className='w-[25%] flex flex-col justify-center items-center p-2 shadow rounded-xl'>
                             <BsPerson size={'30px'} />
-                            <a href="#home" className='text-xl p-1'>Sobre</a>
+                            <a href="#sobre" className='text-xl p-1'>Sobre</a>
                         </button>
                         <button className='w-[25%] flex flex-col justify-center items-center p-2 shadow rounded-xl'>
                             <DiCodeBadge size={'30px'} />
-                            <a href="#home" className='text-xl p-1'>Skills</a>
+                            <a href="#skills" className='text-xl p-1'>Skills</a>
                         </button>
                         <button className='w-[25%] flex flex-col justify-center items-center p-2 shadow rounded-xl'>
                             <BsImage size={'30px'} />
