@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
+import Qualification from './components/Qualification';
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
 
       <section id='skills' className='h-screen snap-center'>
         <Skills />
+      </section>
+
+      <section id='qualification' className='h-screen snap-center'>
+        <Qualification />
       </section>
 
     </div>

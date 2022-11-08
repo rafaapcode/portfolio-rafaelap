@@ -72,7 +72,7 @@ function Skills() {
             <div className='flex h-[20%] justify-around items-center mx-auto'>
               <div className='flex flex-col w-full'>
                 <div className='w-fit font-semibold flex items-center justify-start gap-x-2'><AiFillCheckCircle /> <h3>SQL</h3></div>
-                <p className='text-slate-300 text-center md:ml-7 md:text-left'>Intermediário</p>
+                <p className='text-slate-300 text-center md:ml-7 md:text-left'>Básico</p>
               </div>
             </div>
 
