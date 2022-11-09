@@ -3,6 +3,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Qualification from './components/Qualification';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
 
       <section id='qualification' className='h-screen snap-center'>
         <Qualification />
+      </section>
+
+      <section id='portfolio' className='h-screen snap-center'>
+        <Portfolio />
       </section>
 
     </div>
