@@ -4,6 +4,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Qualification from './components/Qualification';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -28,6 +29,10 @@ function App() {
 
       <section id='portfolio' className='h-screen snap-center'>
         <Portfolio />
+      </section>
+
+      <section id='contact' className='h-screen snap-center'>
+        <Contact />
       </section>
 
     </div>

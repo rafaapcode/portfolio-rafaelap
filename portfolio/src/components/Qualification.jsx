@@ -79,10 +79,10 @@ const Experience = () => {
 
 function Qualification() {
 
-    const [isCliked, setClicked] = useState(false);
+    const [isCliked, setClicked] = useState(true);
 
   return (
-    <div className='h-full mx-auto flex flex-col items-center max-w-xl md:max-w-2xl xl:max-w-5xl gap-y-16'>
+    <div className='h-full mx-auto flex flex-col items-center max-w-xl md:max-w-2xl xl:max-w-5xl gap-y-5'>
         <div className='p-5 md:p-7'><p className='text-4xl md:text-6xl'>Qualificação</p></div>
 
         <div className='flex p-5 w-full items-center'>
