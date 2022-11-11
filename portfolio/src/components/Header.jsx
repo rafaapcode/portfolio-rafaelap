@@ -21,7 +21,7 @@ function Header() {
 
             <motion.li
               {...headerAnimation}
-              transition={{ duration: 1.1, type: 'spring' }}><a href="#sobre">Sobre</a></motion.li>
+              transition={{ duration: 1.1, type: 'spring' }}><a href="#about">Sobre</a></motion.li>
 
             <motion.li
               {...headerAnimation}
@@ -37,7 +37,7 @@ function Header() {
 
             <motion.li
               {...headerAnimation}
-              transition={{ duration: 2.8, type: 'spring' }}><a href="#contato">Contato</a></motion.li>
+              transition={{ duration: 2.8, type: 'spring' }}><a href="#contact">Contato</a></motion.li>
 
           </ul>
         </div>

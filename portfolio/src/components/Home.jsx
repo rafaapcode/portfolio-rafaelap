@@ -73,7 +73,7 @@ function Home() {
                             <p className='text-xs md:text-base'>Olá sou Desenvolvedor Back-End, moro em Bragança Paulista. Sou apaixonado pela tecnologia e a forma como traz uma solução simples para problemas complexos. </p>
                         </motion.div>
                         <motion.div {...homeAnimation.bottom} whileHover={{scale: 1.1}} className='flex items-center rounded-lg xl:rounded-xl w-1/2 xl:w-[35%] bg-[#363535]'>
-                            <a href="#contato"><button className='bg-[#363535] w-full px-2 py-5 text-sm md:text-base rounded-lg xl:rounded-xl text-white'>Entre em contato</button></a>
+                            <a href="#contact"><button className='bg-[#363535] w-full px-2 py-5 text-sm md:text-base rounded-lg xl:rounded-xl text-white'>Entre em contato</button></a>
                             <TbMessageCircle2 color='white' size={'20px'} />
                         </motion.div>
                     </div>
@@ -105,7 +105,7 @@ function Home() {
                         </button>
                         <button className='w-[25%] flex flex-col justify-center items-center p-2 shadow rounded-xl'>
                             <BsPerson size={'30px'} />
-                            <a href="#sobre" className='text-xl p-1'>Sobre</a>
+                            <a href="#about" className='text-xl p-1'>Sobre</a>
                         </button>
                         <button className='w-[25%] flex flex-col justify-center items-center p-2 shadow rounded-xl'>
                             <DiCodeBadge size={'30px'} />
@@ -121,7 +121,7 @@ function Home() {
                         </button>
                         <button className='w-[25%] flex flex-col justify-center items-center p-2 shadow rounded-xl'>
                             <MdOutlineMailOutline size={'30px'} />
-                            <a href="#home" className='text-xl p-1'>Contato</a>
+                            <a href="#contact" className='text-xl p-1'>Contato</a>
                         </button>
 
                         <button onClick={() => setIsOpen(false)} className='absolute bottom-3 right-5 text-3xl'>X</button>

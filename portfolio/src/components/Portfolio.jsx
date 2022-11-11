@@ -22,7 +22,7 @@ const CardsAll = (props) => {
       transition={{duration: 0.5, type: 'spring'}}
       className='flex flex-col items-center justify-center gap-y-5 w-[65%] md:w-[40%] xl:w-[30%] h-[280px] shadow-2xl rounded-xl bg-white border-2 mx-auto mb-5 mt-2 md:mt-0'>
         <div className='w-[90%] h-[75%] bg-slate-200 rounded-lg shadow'></div>
-        <p className='flex items-center self-start ml-5 rounded-md px-2 hover:text-white hover:bg-black cursor-pointer'><a rel='noreferrer' target={'_blank'} href="https://github.com/rafaapcode">GitHub</a><BsArrowRightShort size={'30px'}/></p>
+        <p className='flex items-center self-start ml-5 rounded-md px-2 hover:text-white hover:bg-black cursor-pointer'><a rel='noreferrer' target={'_blank'} href="https://github.com/rafaapcode">Titulo</a><BsArrowRightShort size={'30px'}/></p>
       </motion.div>
 
       <motion.div 
@@ -30,15 +30,15 @@ const CardsAll = (props) => {
       transition={{duration: 0.8, type: 'spring'}}
       className='flex flex-col items-center justify-center gap-y-5 w-[65%] md:w-[40%] xl:w-[30%] h-[280px] shadow-2xl rounded-xl bg-white border-2 mx-auto mb-5'>
         <div className='w-[90%] h-[75%] bg-slate-200 rounded-lg shadow'></div>
-        <p className='flex items-center self-start ml-5 rounded-md px-2 hover:text-white hover:bg-black cursor-pointer'><a rel='noreferrer' target={'_blank'} href="https://github.com/rafaapcode">GitHub</a><BsArrowRightShort size={'30px'}/></p>
+        <p className='flex items-center self-start ml-5 rounded-md px-2 hover:text-white hover:bg-black cursor-pointer'><a rel='noreferrer' target={'_blank'} href="https://github.com/rafaapcode">Titulo</a><BsArrowRightShort size={'30px'}/></p>
       </motion.div>
 
       <motion.div 
       {...animations.left}
       transition={{duration: 1.2, type: 'spring'}}
-      className='flex flex-col items-center justify-center gap-y-5 w-[65%] md:w-[40%] xl:w-[30%] h-[280px] shadow-2xl rounded-xl bg-white border-2 mx-auto mb-5'>
+      className='flex flex-col items-center justify-center gap-y-5 w-[65%] md:w-[40%] xl:w-[30%] h-[280px] shadow-2xl rounded-xl bg-white border-2 mx-auto mb-5 relative'>
         <div className='w-[90%] h-[75%] bg-slate-200 rounded-lg shadow'></div>
-        <p className='flex items-center self-start ml-5 rounded-md px-2 hover:text-white hover:bg-black cursor-pointer'><a rel='noreferrer' target={'_blank'} href="https://github.com/rafaapcode">GitHub</a><BsArrowRightShort size={'30px'}/></p>
+        <p className='flex items-center self-start ml-5 rounded-md px-2 hover:text-white hover:bg-black cursor-pointer'><a rel='noreferrer' target={'_blank'} href="https://github.com/rafaapcode">Titulo</a><BsArrowRightShort size={'30px'}/></p>
       </motion.div>
 
       <motion.div 
@@ -46,7 +46,7 @@ const CardsAll = (props) => {
       transition={{duration: 1.5, type: 'spring'}}
       className='flex flex-col items-center justify-center gap-y-5 w-[65%] md:w-[40%] xl:w-[30%] h-[280px] shadow-2xl rounded-xl bg-white border-2 mx-auto mb-5'>
         <div className='w-[90%] h-[75%] bg-slate-200 rounded-lg shadow'></div>
-        <p className='flex items-center self-start ml-5 rounded-md px-2 hover:text-white hover:bg-black cursor-pointer'><a rel='noreferrer' target={'_blank'} href="https://github.com/rafaapcode">GitHub</a><BsArrowRightShort size={'30px'}/></p>
+        <p className='flex items-center self-start ml-5 rounded-md px-2 hover:text-white hover:bg-black cursor-pointer'><a rel='noreferrer' target={'_blank'} href="https://github.com/rafaapcode">Titulo</a><BsArrowRightShort size={'30px'}/></p>
       </motion.div>
 
       <motion.div 
@@ -54,7 +54,7 @@ const CardsAll = (props) => {
       transition={{duration: 1.8, type: 'spring'}}
       className='flex flex-col items-center justify-center gap-y-5 w-[65%] md:w-[40%] xl:w-[30%] h-[280px] shadow-2xl rounded-xl bg-white border-2 mx-auto mb-5'>
         <div className='w-[90%] h-[75%] bg-slate-200 rounded-lg shadow'></div>
-        <p className='flex items-center self-start ml-5 rounded-md px-2 hover:text-white hover:bg-black cursor-pointer'><a rel='noreferrer' target={'_blank'} href="https://github.com/rafaapcode">GitHub</a><BsArrowRightShort size={'30px'}/></p>
+        <p className='flex items-center self-start ml-5 rounded-md px-2 hover:text-white hover:bg-black cursor-pointer'><a rel='noreferrer' target={'_blank'} href="https://github.com/rafaapcode">Titulo</a><BsArrowRightShort size={'30px'}/></p>
       </motion.div>
 
       <motion.div 
@@ -62,7 +62,7 @@ const CardsAll = (props) => {
       transition={{duration: 2.2, type: 'spring'}}
       className='flex flex-col items-center justify-center gap-y-5 w-[65%] md:w-[40%] xl:w-[30%] h-[280px] shadow-2xl rounded-xl bg-white border-2 mx-auto mb-5'>
         <div className='w-[90%] h-[75%] bg-slate-200 rounded-lg shadow'></div>
-        <p className='flex items-center self-start ml-5 rounded-md px-2 hover:text-white hover:bg-black cursor-pointer'><a rel='noreferrer' target={'_blank'} href="https://github.com/rafaapcode">GitHub</a><BsArrowRightShort size={'30px'}/></p>
+        <p className='flex items-center self-start ml-5 rounded-md px-2 hover:text-white hover:bg-black cursor-pointer'><a rel='noreferrer' target={'_blank'} href="https://github.com/rafaapcode">Titulo</a><BsArrowRightShort size={'30px'}/></p>
       </motion.div>
 
     </div>
@@ -161,7 +161,7 @@ function Portfolio() {
 
           whileTap={{scale: 0.90}}
           onClick={() => setSelected('all')} 
-          className={selected === 'all' ? 'h-full w-[10%] xl:w-[6%] text-center rounded-lg p-2 text-lg bg-black text-white md:text-3xl hover:text-white cursor-pointer hover:bg-black' : 'h-full w-[6%] text-center rounded-lg p-2 text-lg md:text-3xl hover:text-white cursor-pointer hover:bg-black'}>All</motion.div>
+          className={selected === 'all' ? 'h-full w-[19%] xl:w-[12%] text-center rounded-lg p-2 text-lg bg-black text-white md:text-3xl hover:text-white cursor-pointer hover:bg-black' : 'h-full w-[19%] xl:w-[12%] text-center rounded-lg p-2 text-lg md:text-3xl hover:text-white cursor-pointer hover:bg-black'}>Todos</motion.div>
         
         <motion.div 
           whileTap={{scale: 0.90}}
@@ -173,7 +173,7 @@ function Portfolio() {
           whileTap={{scale: 0.90}}
 
           onClick={() => setSelected('webpages')} 
-          className={selected === 'webpages' ? 'h-full w-[27%] xl:w-[16%] text-center rounded-lg p-2 text-lg bg-black text-white md:text-3xl hover:text-white cursor-pointer hover:bg-black' : 'h-full w-[27%] xl:w-[16%] text-center rounded-lg p-2 text-lg md:text-3xl hover:text-white cursor-pointer hover:bg-black'}>WebPage</motion.div>
+          className={selected === 'webpages' ? 'h-full w-[20%] xl:w-[12%] text-center rounded-lg p-2 text-lg bg-black text-white md:text-3xl hover:text-white cursor-pointer hover:bg-black' : 'h-full w-[20%] xl:w-[12%] text-center rounded-lg p-2 text-lg md:text-3xl hover:text-white cursor-pointer hover:bg-black'}>Sites</motion.div>
       
       </div>
 

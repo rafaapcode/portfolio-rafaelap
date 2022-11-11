@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Qualification from './components/Qualification';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Home />
       </section>
 
-      <section id='sobre' className='h-screen snap-center'>
+      <section id='about' className='h-screen snap-center'>
         <About />
       </section>
 
@@ -34,6 +35,10 @@ function App() {
       <section id='contact' className='h-screen snap-center'>
         <Contact />
       </section>
+
+      <footer className='h-fit'>
+        <Footer />
+      </footer>
 
     </div>
   );
