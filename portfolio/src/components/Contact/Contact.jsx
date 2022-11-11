@@ -2,11 +2,12 @@ import React from 'react'
 import { TbBrandWhatsapp } from 'react-icons/tb';
 import { MdOutlineMarkEmailRead } from 'react-icons/md';
 import { motion } from 'framer-motion';
+import Text from '../Text';
 
 function Contact() {
   return (
     <div className='h-full mx-auto flex flex-col items-center max-w-xl md:max-w-2xl xl:max-w-5xl xl:mt-10'>
-      <div className='p-5 md:p-7'><p className='text-4xl mb-5 md:text-6xl'>Contato</p></div>
+      <Text title='Contato'/>
 
       <div className='flex flex-col xl:flex-row-reverse xl:flex-wrap justify-between items-center gap-y-16 mt-5 h-[79%] w-full'>
         <h2 className='text-xl text-slate-400 w-full text-center'>Entre em contato</h2>

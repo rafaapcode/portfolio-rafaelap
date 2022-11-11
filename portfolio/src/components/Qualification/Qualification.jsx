@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { TbSchool } from 'react-icons/tb';
 import { MdWorkOutline, MdOutlineDateRange } from 'react-icons/md';
+import Text from '../Text';
 
 const Education = () => {
 
@@ -83,7 +84,7 @@ function Qualification() {
 
   return (
     <div className='h-full mx-auto flex flex-col items-center max-w-xl md:max-w-2xl xl:max-w-5xl gap-y-5'>
-        <div className='p-5 md:p-7'><p className='text-4xl md:text-6xl'>Qualificação</p></div>
+        <Text title='Qualificação' />
 
         <div className='flex p-5 w-full items-center'>
 

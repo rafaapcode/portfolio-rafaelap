@@ -1,15 +1,18 @@
-import Header from './components/Header';
-import Home from './components/Home';
-import About from './components/About';
-import Skills from './components/Skills';
-import Qualification from './components/Qualification';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from './components/Header/Header';
+import Home from './components/HomePage/Home';
+import About from './components/About/About';
+import Skills from './components/Skills/Skills';
+import Qualification from './components/Qualification/Qualification';
+import Portfolio from './components/Portfolio/Portfolio';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import Scrollup from './components/ScroollUp/Scrollup';
 
 function App() {
   return (
     <div className='flex flex-col snap-y snap-mandatory overflow-auto'>
+
+      <Scrollup />
 
       <section id='home' className='h-screen snap-start'>
         <Header />

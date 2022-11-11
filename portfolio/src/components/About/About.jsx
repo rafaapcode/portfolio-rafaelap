@@ -2,14 +2,15 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { MdOutlineWorkOutline } from 'react-icons/md';
 import { TbNews } from 'react-icons/tb';
+import Text from '../Text';
 
 function About() {
 
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className='h-full flex flex-col'>
-            <div className='w-full p-5 text-center'><p className='text-4xl md:text-6xl xl:text-5xl'>Sobre</p></div>
+        <div className='h-full flex flex-col text-center'>
+            <Text title='Sobre'/>
 
             <div className='flex flex-col items-center gap-y-5 xl:gap-y-0 xl:flex-row xl:justify-center w-full h-[90%] md:h-[90%] md:my-auto xl:gap-x-12'>
                 <motion.div

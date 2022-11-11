@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { AiFillCheckCircle } from 'react-icons/ai';
+import Text from '../Text';
 
 function Skills() {
 
@@ -10,7 +11,7 @@ function Skills() {
 
   return (
     <div className='h-full mx-auto flex flex-col items-center max-w-xl md:max-w-2xl xl:max-w-5xl'>
-      <div className='p-5 md:p-7'><p className='text-4xl md:text-6xl'>Skills</p></div>
+      <Text title='Skills' />
 
       <div className='h-[90%] w-full flex flex-col xl:flex-row xl:justify-between items-center gap-y-10 md:gap-y-20 xl:gap-y-0'>
         <motion.div whileHover={{ ...boxAnimationnHover }} className='w-[85%] h-2/5 xl:w-[45%] xl:h-[60%] border-2 rounded-lg'>
