@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { MdOutlineWorkOutline } from 'react-icons/md';
 import { TbNews } from 'react-icons/tb';
 import Text from '../Text';
+import CV from '../../assets/RafaelAparecido.pdf';
 
 function About() {
 
@@ -42,7 +43,7 @@ function About() {
                         </p>
                     </div>
 
-                    <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.98 }} className='w-[45%] md:w-[25%] py-4 px-2 md:p-3 xl:py-5 xl:px-3 xl:ml-8 mx-auto xl:mx-0 bg-black/70 rounded-xl text-white shadow-lg flex items-center justify-evenly'>Download CV  <TbNews size={'20px'} /> </motion.button>
+                    <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.98 }} className='w-[45%] md:w-[25%] py-4 px-2 md:p-3 xl:py-5 xl:px-3 xl:ml-8 mx-auto xl:mx-0 bg-black/70 rounded-xl text-white shadow-lg flex items-center justify-evenly'><a download="" href={CV}>Download CV</a> <TbNews size={'20px'} /> </motion.button>
                 </div>
             </div>
 
