@@ -12,6 +12,7 @@ import InventoryControl from '../../assets/img/inventoryControl.jpg';
 import OrdersList from '../../assets/img/OrdersList.jpg';
 import StoreApi from '../../assets/img/StoreApi.jpg';
 import ApiFinanceira from '../../assets/img/ApiFinanceira.jpg';
+import RestaurantApi from '../../assets/img/RestaurantApi.jpg';
 
 const CardsAll = (props) => {
   const animations = {
@@ -48,6 +49,7 @@ const CardsAll = (props) => {
 
       <Cards time={4.4} animation={animations.right} link="https://github.com/rafaapcode/API-Financeira" title='API Financeira' logo={ApiFinanceira} />
 
+      <Cards time={4.8} animation={animations.left} link="https://github.com/rafaapcode/restaurant_api" title='Restaurant Management' logo={RestaurantApi} />
 
     </div>
   )
@@ -67,6 +69,7 @@ const CardsApis = (props) => {
 
   return (
     <div className='h-[70%] w-full md:flex md:flex-wrap items-center gap-y-5 md:gap-y-0 md:gap-x-5  md:flex-row  overflow-auto'>
+      <Cards time={2} animation={animations.left} link="https://github.com/rafaapcode/restaurant_api" title='Restaurant Management' logo={RestaurantApi} />
 
       <Cards time={2.4} animation={animations.right} link="https://github.com/rafaapcode/toolsManagement" title='Tools Management' logo={ToolsManagement} />
 
