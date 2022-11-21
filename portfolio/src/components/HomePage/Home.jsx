@@ -9,7 +9,7 @@ import { BsPerson, BsImage } from 'react-icons/bs';
 import { DiCodeBadge } from 'react-icons/di'
 import { MdOutlineMailOutline } from 'react-icons/md';
 import { TbSchool } from 'react-icons/tb';
-
+import FOTO from '../../assets/img/FOTO.jpeg';
 
 function Home() {
 
@@ -78,8 +78,10 @@ function Home() {
                         </motion.div>
                     </div>
 
-                    <motion.div {...imgAnimation} className='bg-slate-200  w-[300px] h-[300px] md:w-[350px] md:h-[350px] xl:h-full xl:w-5/12 rounded-xl mx-auto md:mx-0'>
-                        teste
+                    <motion.div 
+                    {...imgAnimation} 
+                    className='w-[250px] md:w-[300px] xl:h-full xl:w-5/12 rounded-xl mx-auto md:mx-0'>
+                        <img className='rounded-xl' src={FOTO} alt="Minha foto"/>
                     </motion.div>
 
                 </div>

@@ -4,6 +4,7 @@ import { MdOutlineWorkOutline } from 'react-icons/md';
 import { TbNews } from 'react-icons/tb';
 import Text from '../Text';
 import CV from '../../assets/RafaelAparecido.pdf';
+import FOTO from '../../assets/img/FOTO.jpeg';
 
 function About() {
 
@@ -22,8 +23,8 @@ function About() {
                         bottom: 20
                     }}
                     drag
-                    className='w-[300px] h-[300px] md:w-[500px] md:h-[500px] xl:w-[470px] xl:h-[470px] bg-slate-200 rounded-xl'>
-                    img
+                    className='w-[300px] h-[300px] md:w-[500px] md:h-[500px] xl:w-[470px] xl:h-[470px] flex items-center rounded-xl'>
+                    <img className='mx-auto rounded-xl w-[230px] md:w-[300px] xl:w-[350px]' src={FOTO} alt="Minha foto" />
                 </motion.div>
 
                 <div className='w-full md:w-[90%] xl:w-1/2 h-1/2 md:h-[50%] xl:h-[80%] flex flex-col gap-y-5 text-justify xl:mt-11'>
