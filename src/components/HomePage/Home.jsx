@@ -72,7 +72,7 @@ function Home() {
                         <motion.div {...homeAnimation.bottom} className='flex h-1/5 w-full'>
                             <p className='text-xs md:text-base'>Olá sou Desenvolvedor Back-End, moro em Bragança Paulista. Sou apaixonado pela tecnologia e a forma como traz uma solução simples para problemas complexos. </p>
                         </motion.div>
-                        <motion.div {...homeAnimation.bottom} whileHover={{scale: 1.1}} className='flex items-center rounded-lg xl:rounded-xl w-1/2 xl:w-[35%] bg-[#363535]'>
+                        <motion.div {...homeAnimation.bottom} whileHover={{scale: 1.1}} className='flex items-center rounded-lg xl:rounded-xl w-1/2 xl:w-[35%] bg-[#363535] mt-5 xl:mt-0'>
                             <a href="#contact"><button className='bg-[#363535] w-full px-2 py-5 text-sm md:text-base rounded-lg xl:rounded-xl text-white'>Entre em contato</button></a>
                             <TbMessageCircle2 color='white' size={'20px'} />
                         </motion.div>
