@@ -6,4 +6,19 @@
     body {
         font-family: 'Poppins', sans-serif;
     }
+
+    body::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    body::-webkit-scrollbar-track {
+        background: gray;
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background-color: white;
+        border-radius: 20px;
+        border: 2px solid gray;
+    }
+
 }

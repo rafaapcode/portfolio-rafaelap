@@ -12,9 +12,9 @@ const Education = () => {
     };
 
     return (
-        <motion.div {...animation} transition={{ duration: 0.5, type: 'spring' }} className='h-full w-full xl:w-[70%] xl:mx-auto grid grid-cols-2 justify-items-center overflow-auto'>
+        <motion.div id='qualificationDiv' {...animation} transition={{ duration: 0.5, type: 'spring' }} className='h-full xl:h-[75%] w-full xl:w-[70%] xl:mx-auto grid grid-cols-2 justify-items-center overflow-auto'>
 
-            <div className='flex flex-col justify-around w-fit h-[20%] ml-5 md:ml-0 mt-7 md:mt-0 xl:mt-7'>
+            <div className='flex flex-col justify-around w-fit h-[20%] ml-5 md:ml-0 mt-7'>
                 <h3 className='text-lg md:text-3xl xl:text-2xl font-bold text-black/50'>Ensino Médio</h3>
                 <p className='text-lg md:text-2xl text-slate-300'>SESI</p>
                 <div className='flex items-center'>
@@ -23,7 +23,7 @@ const Education = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col justify-around w-fit h-[20%] md:h-[25%] mt-10 md:mt-5 xl:mt-10'>
+            <div className='flex flex-col justify-around w-fit h-[20%] md:h-[25%] mt-10 md:mt-10 xl:mt-10'>
                 <h3 className='text-lg md:text-3xl xl:text-2xl font-bold text-black/50'>Técnico em Redes<br />de Computadores<br /></h3>
                 <p className='text-lg md:text-2xl text-slate-300'>SENAI</p>
                 <div className='flex items-center'>
@@ -32,7 +32,7 @@ const Education = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col justify-around w-fit h-[20%] ml-5 md:ml-0'>
+            <div className='flex flex-col justify-around w-fit h-[20%] ml-5 md:ml-0 mt-10'>
                 <h3 className='text-lg md:text-3xl xl:text-2xl font-bold text-black/50'>Engenharia de <br />Sofware</h3>
                 <p className='text-lg md:text-2xl text-slate-300'>UNINTER</p>
                 <div className='flex items-center'>
@@ -41,12 +41,21 @@ const Education = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col justify-around w-fit h-[20%]'>
+            <div className='flex flex-col justify-around w-fit h-[20%] mt-10'>
                 <h3 className='text-lg md:text-3xl xl:text-2xl font-bold text-black/50'>Azure AI <br />Fundamentals</h3>
                 <p className='text-lg md:text-2xl text-slate-300'>SENAI</p>
                 <div className='flex items-center'>
                     <MdOutlineDateRange size={'35px'} color='gray' />
                     <p className='px-2 text-slate-500 md:text-lg'>Jun/2022 - Nov/2022</p>
+                </div>
+            </div>
+
+            <div className='flex flex-col justify-around w-fit h-[20%] ml-5 md:ml-0 mt-10'>
+                <h3 className='text-lg md:text-3xl xl:text-2xl font-bold text-black/50'>Programador <br />Front-End</h3>
+                <p className='text-lg md:text-2xl text-slate-300'>SENAI</p>
+                <div className='flex items-center'>
+                    <MdOutlineDateRange size={'35px'} color='gray' />
+                    <p className='px-2 text-slate-500 md:text-lg'>Jun/2022 - Dez/2022</p>
                 </div>
             </div>
 
